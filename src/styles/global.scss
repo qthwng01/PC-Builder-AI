@@ -1,0 +1,227 @@
+$primary-color: #4420be;
+$lightgray-color: #d3d3d3;
+$red-color: rgb(255, 77, 79);
+$black-color: #333;
+$h1-desktop: 44px;
+$h2-desktop: 42px;
+$h3-desktop: 40px;
+$h4-desktop: 38px;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  //font-size: 62.5%;
+  line-height: 1.5;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+// a:hover {
+//   color: $primary-color;
+//   transition: 5ms all ease-in-out;
+// }
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+.header {
+  .header__inside {
+    padding: 40px 12px;
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      a img {
+        border-radius: 20%;
+      }
+
+      .navbar__lists {
+        width: calc(100% - 30%);
+        display: inline-flex;
+        align-items: center;
+      }
+      .navbar__item {
+        padding: 0 20px;
+
+        .sp__navbar {
+          display: inline-flex;
+          align-items: center;
+
+          img {
+            margin-right: 10px;
+          }
+        }
+
+        a {
+          font-size: 16px;
+          color: black;
+          font-weight: 700;
+        }
+      }
+
+      .hire__me a {
+        border: 1px solid $primary-color;
+        border-radius: 10px;
+        padding: 10px 35px;
+        display: block;
+        background-color: $primary-color;
+        color: #fff;
+
+        span {
+          font-size: 14px;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+}
+
+.build__content {
+  .build__inside {
+    .build__title {
+      text-align: center;
+    }
+    .build__form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 100%;
+      justify-content: center;
+      padding: 20px 0px;
+
+      .form__info {
+        width: 40%;
+        min-width: 40%;
+        max-width: 40%;
+        text-align: center;
+
+        .error__build {
+          text-align: start;
+          padding-top: 12px;
+          padding-left: 5px;
+          font-size: 12px;
+          font-weight: 400;
+          color: red;
+        }
+      }
+    }
+  }
+  .build__title {
+    font-size: $h2-desktop;
+    font-weight: 800;
+  }
+}
+
+.list__items {
+  margin-top: 50px;
+
+  .list__card {
+    margin-top: 20px;
+  }
+
+  .list__items-title {
+    font-size: 24px;
+    font-weight: 800;
+  }
+  .card__item {
+    margin-top: 20px;
+    padding: 20px 22px;
+    border: 1px solid;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .card__left h3 {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .card__left p {
+      font-size: 12px;
+      font-weight: 300;
+    }
+    .card__left p span {
+      cursor: pointer;
+      color: blue;
+    }
+  }
+}
+
+.footer {
+  border-top: 1px solid;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px !important;
+  margin-bottom: 20px !important;
+
+  .p__footer,
+  .f__footer {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .p__footer a {
+    border-bottom: 1px solid $primary-color;
+  }
+}
+
+/* Mobile: width < 740px */
+@media only screen and (max-width: 740px) {
+  .navbar .hire__me {
+    display: none;
+  }
+  .header .header__inside .navbar .navbar__lists {
+    width: 100%;
+    justify-content: end;
+  }
+  .build__content .build__title {
+    font-size: 26px;
+  }
+  .build__content .build__inside .build__form .form__info {
+    width: 100%;
+    min-width: 70%;
+  }
+  .list__items {
+    margin-top: 20px !important;
+  }
+  .list__items .list__card {
+    margin-top: 0px;
+  }
+  .list__items .skeleton, .list__items .non {
+    margin-bottom: 50px;
+  }
+  
+  .list__items .list__items-title {
+    text-align: center;
+  }
+  .footer {
+    flex-direction: column;
+    border: unset;
+    padding: 0 10px;
+    margin-top: 10px !important;
+  }
+  .footer .p__footer,
+  .footer .f__footer {
+    text-align: center;
+  }
+  .footer .p__footer {
+    margin-bottom: 10px;
+  }
+}
