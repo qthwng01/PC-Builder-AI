@@ -1,0 +1,86 @@
+[
+  {
+    "stt": "2",
+    "name": "Bo mạch chủ ASUS ProArt Z790 CREATOR WIFI D5",
+    "image": "https://product.hstatic.net/200000722513/product/proart-z790-creator-wifi-01_975b6cb6e21c4f93a1de301b76b27821.jpg",
+    "price": "11.990.000₫",
+    "id": 1
+  },
+  {
+    "stt": "7",
+    "name": "Bo mạch chủ ASUS TUF GAMING B760 WIFI D4",
+    "image": "https://product.hstatic.net/200000722513/product/proart-z790-creator-wifi-01_975b6cb6e21c4f93a1de301b76b27821.jpg",
+    "price": "11.990.000₫",
+    "id": 6
+  },
+  {
+    "stt": "18",
+    "name": "Bo mạch chủ GIGABYTE X670 AORUS ELITE AX (DDR5)",
+    "image": "https://product.hstatic.net/200000722513/product/proart-z790-creator-wifi-01_975b6cb6e21c4f93a1de301b76b27821.jpg",
+    "price": "11.990.000₫",
+    "id": 17
+  },
+  {
+    "stt": "21",
+    "name": "Bo mạch chủ ASUS TUF GAMING X570",
+    "image": "https://product.hstatic.net/200000722513/product/proart-z790-creator-wifi-01_975b6cb6e21c4f93a1de301b76b27821.jpg",
+    "price": "11.990.000₫",
+    "id": 20
+  },
+  {
+    "stt": "23",
+    "name": "Bo mạch chủ MSI MAG B760 MORTAR II WIFI DDR5",
+    "image": "https://product.hstatic.net/200000722513/product/proart-z790-creator-wifi-01_975b6cb6e21c4f93a1de301b76b27821.jpg",
+    "price": "11.990.000₫",
+    "id": 22
+  },
+  {
+    "stt": "24",
+    "name": "Bo mạch chủ ASUS TUF Gaming B550",
+    "image": "https://product.hstatic.net/200000722513/product/proart-z790-creator-wifi-01_975b6cb6e21c4f93a1de301b76b27821.jpg",
+    "price": "11.990.000₫",
+    "id": 23
+  },
+  {
+    "stt": "26",
+    "name": "Bo mạch chủ MSI MAG B660",
+    "image": "https://product.hstatic.net/200000722513/product/proart-z790-creator-wifi-01_975b6cb6e21c4f93a1de301b76b27821.jpg",
+    "price": "11.990.000₫",
+    "id": 25
+  },
+  {
+    "stt": "31",
+    "name": "Bo mạch chủ MSI PRO H610 WIFI DDR4",
+    "image": "https://product.hstatic.net/200000722513/product/proart-z790-creator-wifi-01_975b6cb6e21c4f93a1de301b76b27821.jpg",
+    "price": "11.990.000₫",
+    "id": 30
+  },
+  {
+    "stt": "32",
+    "name": "Bo mạch chủ MSI MAG B560 Mortar",
+    "image": "https://product.hstatic.net/200000722513/product/proart-z790-creator-wifi-01_975b6cb6e21c4f93a1de301b76b27821.jpg",
+    "price": "11.990.000₫",
+    "id": 31
+  },
+  {
+    "stt": "33",
+    "name": "Bo mạch chủ ASUS PRIME H610M D4-CSM",
+    "image": "https://product.hstatic.net/200000722513/product/proart-z790-creator-wifi-01_975b6cb6e21c4f93a1de301b76b27821.jpg",
+    "price": "11.990.000₫",
+    "id": 32
+  },
+  {
+    "stt": "35",
+    "name": "Bo mạch chủ ASUS Prime H510",
+    "image": "https://product.hstatic.net/200000722513/product/proart-z790-creator-wifi-01_975b6cb6e21c4f93a1de301b76b27821.jpg",
+    "price": "11.990.000₫",
+    "id": 34
+  },
+  {
+    "stt": "36",
+    "name": "Bo mạch chủ MSI A320 Pro",
+    "image": "https://product.hstatic.net/200000722513/product/proart-z790-creator-wifi-01_975b6cb6e21c4f93a1de301b76b27821.jpg",
+    "price": "11.990.000₫",
+    "id": 35
+  }
+]

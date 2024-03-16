@@ -35,7 +35,7 @@ async function openAIService(budget: number, prompt: string) {
       cpu: item.Cpu,
     }))
     //Filter data
-    const filterData = mappedData.filter((x) => x.price <= budget + 900000)
+    const filterData = mappedData.filter((x) => x.price <= budget + 500000)
 
     //Prompt
     const officePrompt = `

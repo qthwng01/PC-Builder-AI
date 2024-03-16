@@ -39,7 +39,6 @@ function Build() {
       setConfiguration(result)
       setIsLoading(false)
       setLoading(false)
-      //console.log('Success:', result)
     } catch (error) {
       setIsLoading(false)
       setLoading(false)

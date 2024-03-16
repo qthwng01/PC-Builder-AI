@@ -6,7 +6,7 @@ function Footer() {
       <p className="p__footer">
         Developer by <Link href="https://github.com/qthwng01">qthwngg_</Link>
       </p>
-      <p className="f__footer">Built with OpenAI, NextJS, Typescript, Chakra UI. Deloy in Vercel.</p>
+      <p className="f__footer">Built with OpenAI, NextJS, Typescript, Chakra UI. Deloy in Render.</p>
     </div>
   )
 }

@@ -27,14 +27,18 @@ function ListItem() {
   // }
   const data: any = configuration
   useEffect(() => {
-    if (data && data?.result) {
-      const a = data?.result?.text
-      const cleanedStringData = a.replace(/\n|\t/g, '')
-      const b = JSON.parse(cleanedStringData.replace('recommendation:', ''))
-      //console.log(b)
-      setItem(b?.recommendation)
-    } else {
-      console.log('Input object does not contain result.')
+    try {
+      if (data && data?.result) {
+        const a = data?.result?.text
+        const cleanedStringData = a.replace(/\n|\t/g, '')
+        const b = JSON.parse(cleanedStringData.replace('recommendation:', ''))
+        setItem(b.recommendation)
+        //console.log(b?.recommendation)
+      } else {
+        console.log('Lỗi không có JSON từ OpenAI.')
+      }
+    } catch (e) {
+      alert('Lỗi JSON từ OpenAI. Thử lại.')
     }
   }, [configuration, setConfiguration])
 
@@ -64,7 +68,7 @@ function ListItem() {
                         <div className="card__left">
                           <h3>CPU</h3>
                           <p>
-                            {cf?.CPU} - <span onClick={() => getName(cf?.CPU)}>Chi tiết</span>
+                            {cf?.CPU} - <span onClick={() => getName('CPU' + ' ' + cf?.CPU)}>Chi tiết</span>
                           </p>
                         </div>
                         <div className="card__right">
@@ -77,7 +81,7 @@ function ListItem() {
                         <div className="card__left">
                           <h3>VGA</h3>
                           <p>
-                            {cf?.VGA} - <span onClick={() => getName(cf?.VGA)}>Chi tiết</span>
+                            {cf?.VGA} - <span onClick={() => getName('VGA' + ' ' + cf?.VGA)}>Chi tiết</span>
                           </p>
                         </div>
                         <div className="card__right">
@@ -90,7 +94,7 @@ function ListItem() {
                         <div className="card__left">
                           <h3>Ram</h3>
                           <p>
-                            {cf?.Ram} - <span onClick={() => getName(cf?.Ram)}>Chi tiết</span>
+                            {cf?.Ram} - <span onClick={() => getName('Ram' + ' ' + cf?.Ram)}>Chi tiết</span>
                           </p>
                         </div>
                         <div className="card__right">
@@ -103,7 +107,7 @@ function ListItem() {
                         <div className="card__left">
                           <h3>SSD</h3>
                           <p>
-                            {cf?.SSD} - <span onClick={() => getName(cf?.SSD)}>Chi tiết</span>
+                            {cf?.SSD} - <span onClick={() => getName('SSD' + ' ' + cf?.SSD)}>Chi tiết</span>
                           </p>
                         </div>
                         <div className="card__right">
@@ -116,7 +120,7 @@ function ListItem() {
                         <div className="card__left">
                           <h3>Mainboard</h3>
                           <p>
-                            {cf?.Mainboard} - <span onClick={() => getName(cf?.Mainboard)}>Chi tiết</span>
+                            {cf?.Mainboard} - <span onClick={() => getName('mnb' + ' ' + cf?.Mainboard)}>Chi tiết</span>
                           </p>
                         </div>
                         <div className="card__right">

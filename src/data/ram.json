@@ -1,0 +1,23 @@
+[
+  {
+    "stt": "1",
+    "name": "Ram 8GB",
+    "image": "https://product.hstatic.net/200000722513/product/ktc-product-memory-beast-ddr4-si_cd911a7f8fc342c9a99dd1370a254c73.png",
+    "price": "650.000₫",
+    "id": 1
+  },
+  {
+    "stt": "2",
+    "name": "Ram 16GB",
+    "image": "https://product.hstatic.net/200000722513/product/gearvn-ram-t-group-t-force-delta-1x16gb-3600-rgb-white-4_3c93ce9bc46c4a29abfbac15c7ff6957.png",
+    "price": "1.390.000₫",
+    "id": 2
+  },
+  {
+    "stt": "3",
+    "name": "Ram 32GB",
+    "image": "https://product.hstatic.net/200000722513/product/ram-pc-corsair-vengeance-rgb-whi_453c3d7acedc495983e67b06cb54503a.png",
+    "price": "3.590.000₫",
+    "id": 1
+  }
+]

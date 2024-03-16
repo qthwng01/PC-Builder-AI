@@ -1,0 +1,86 @@
+[
+  {
+    "1": "2",
+    "name": "Card màn hình MSI GeForce RTX 4070 Ti SUPER 16G GAMING X SLIM WHITE",
+    "image": "https://product.hstatic.net/200000722513/product/-card-man-hinh-msi-geforce-rtx-4070-ti-super-16g-gaming-x-slim-white-5_87008338cfc943d2a18d116fb2f4ad96.png",
+    "price": "28.490.000₫",
+    "id": 1
+  },
+  {
+    "1": "9",
+    "name": "Card màn hình MSI GeForce RTX 4070 SUPER 12G VENTUS 2X WHITE OC",
+    "image": "https://product.hstatic.net/200000722513/product/-card-man-hinh-msi-geforce-rtx-4070-ti-super-16g-gaming-x-slim-white-5_87008338cfc943d2a18d116fb2f4ad96.png",
+    "price": "28.490.000₫",
+    "id": 8
+  },
+  {
+    "1": "25",
+    "name": "Card màn hình MSI GeForce RTX 4080 SUPER 16G EXPERT",
+    "image": "https://file.hstatic.net/200000722513/file/khung_rtx_40_cb0cf0d978c84a09997b8f2dba8a386c.png",
+    "price": "28.490.000₫",
+    "id": 24
+  },
+  {
+    "1": "26",
+    "name": "Card màn hình ASUS Dual GeForce RTX 3050 OC Edition 6GB (DUAl-RTX3050-O6G)",
+    "image": "https://product.hstatic.net/200000722513/product/8630_f7c417951e38d4d7e8f4856ea0f805d0_f0f3c1fd00a5423495c83ebd8b474050_29a08ad9f50d4b908e71cb6bdf11d3ad.jpg",
+    "price": "28.490.000₫",
+    "id": 25
+  },
+  {
+    "1": "30",
+    "name": "Card màn hình ASUS Dual GeForce RTX 4060 WHITE OC Edition 8GB (DUAL-RTX4060-O8G-WHITE)",
+    "image": "https://product.hstatic.net/200000722513/product/-card-man-hinh-msi-geforce-rtx-4070-ti-super-16g-gaming-x-slim-white-5_87008338cfc943d2a18d116fb2f4ad96.png",
+    "price": "28.490.000₫",
+    "id": 29
+  },
+  {
+    "1": "35",
+    "name": "Card màn hình MSI GeForce GT 1030 AERO ITX 2GD4 OCV1",
+    "image": "https://product.hstatic.net/200000722513/product/gt1030-aero-2gb-oc-msi_9e353c3df0f849f29676d12a5cd8477d_65b7ae6ac58b4df49b4ae24196e443de.jpg",
+    "price": "28.490.000₫",
+    "id": 34
+  },
+  {
+    "1": "39",
+    "name": "Card màn hình GIGABYTE GeForce RTX 4090 WINDFORCE V2 24G (GV-N4090WF3V2-24GD)",
+    "image": "https://file.hstatic.net/200000722513/file/khung_rtx_40_cb0cf0d978c84a09997b8f2dba8a386c.png",
+    "price": "28.490.000₫",
+    "id": 38
+  },
+  {
+    "1": "40",
+    "name": "Card màn hình ASUS Dual Radeon RX 6600 V2 8GB GDDR6 (DUAL-RX6600-8G-V2)",
+    "image": "https://product.hstatic.net/200000722513/product/radeon__rx_6600_eagle_8g-08_c3a4bfb8ba514f3a9d6f8c5edeb0d756_f9670f99867949fdb1658a2d9ca06bf7.png",
+    "price": "28.490.000₫",
+    "id": 39
+  },
+  {
+    "1": "42",
+    "name": "Card màn hình ASUS Dual GeForce GTX 1650 OC Edition 4GB GDDR6 EVO (DUAL-GTX1650-O4GD6-P-EVO)",
+    "image": "https://product.hstatic.net/200000722513/product/600_bd2c3b868e1e4fd0ada048f8b34f2252.png",
+    "price": "28.490.000₫",
+    "id": 41
+  },
+  {
+    "1": "43",
+    "name": "Card màn hình Colorful GeForce RTX 3060 NB DUO 12G L-V",
+    "image": "https://product.hstatic.net/200000722513/product/geforce_rtx__3060_gaming_oc_8g-09_b3494a38843643d7a09538f63bd8a653.png",
+    "price": "28.490.000₫",
+    "id": 42
+  },
+  {
+    "1": "44",
+    "name": "Card màn hình Colorful GeForce GTX 1660 SUPER NB 6G V2-V",
+    "image": "https://product.hstatic.net/200000722513/product/gearvn-card-man-hinh-vga-colorful-geforce-gtx-1660-super-nb-6g-v2-v-2_c51ba50427274beb9c1aaf98af0a2514.png",
+    "price": "28.490.000₫",
+    "id": 43
+  },
+  {
+    "1": "50",
+    "name": "Card màn hình RX 6700 XT",
+    "image": "https://nguyencongpc.vn/media/product/18603-powercolor-hellhound-rx-6700xt-12gb-gddr6-2.jpg",
+    "price": "28.490.000₫",
+    "id": 49
+  }
+]
