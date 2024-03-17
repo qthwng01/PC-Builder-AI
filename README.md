@@ -21,6 +21,6 @@ https://github.com/mejaz/ai-book-quest
 https://dribbble.com/shots/16856193-PC-Builder-UI
 
 ## Demo video
-[![](https://i.ytimg.com/vi/GIOSJNLQIH0/maxresdefault.jpg)](https://www.youtube.com/watch?v=GIOSJNLQIH0 "")
+[![](https://ik.imagekit.io/listbanks/image/Capture_su0tmnjNx.PNG?updatedAt=1710668799813)](https://www.youtube.com/watch?v=GIOSJNLQIH0 "")
 
 
