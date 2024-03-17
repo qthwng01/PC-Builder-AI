@@ -2,7 +2,7 @@
 ## _A project basic with OpenAI_
 
 PC Builder help to building configuration, recommendation parts of computer from 'budget' and 'type'.
-Train with custom data then use OpenAI to recommend.
+Train with custom data and create prompt for OpenAI to recommend.
 
 ## Features
 
