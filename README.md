@@ -1,4 +1,4 @@
-# PC Builder with AI 🤖 ✨
+# PC Builder with AI 🤖✨
 ## _A project basic with OpenAI_
 
 PC Builder help to building configuration, recommendation parts of computer from 'budget' and 'type'.
