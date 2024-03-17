@@ -17,7 +17,10 @@ Train with custom data then use OpenAI to recommend.
 
 ## Link references
 https://github.com/mejaz/ai-book-quest
+
 https://dribbble.com/shots/16856193-PC-Builder-UI
 
-## Demo
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GIOSJNLQIH0?si=lt14TsPJyFdXP_cK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+## Demo video
+[![](https://i.ytimg.com/vi/GIOSJNLQIH0/maxresdefault.jpg)](https://www.youtube.com/watch?v=GIOSJNLQIH0 "")
+
+
