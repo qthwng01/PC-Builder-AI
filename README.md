@@ -9,18 +9,18 @@ Train with custom data then use OpenAI to recommend.
 - Recommend parts of computer
 - View detail of parts
 
-## Tech stacks
+## Tech Stacks
 - NextJS
 - Typescript
 - OpenAI
 - Charka UI.
 
-## Link references
+## Link References
 https://github.com/mejaz/ai-book-quest
 
 https://dribbble.com/shots/16856193-PC-Builder-UI
 
-## Demo video
+## Demo Video
 [![](https://ik.imagekit.io/listbanks/image/Capture_su0tmnjNx.PNG?updatedAt=1710668799813)](https://www.youtube.com/watch?v=GIOSJNLQIH0 "")
 
 
