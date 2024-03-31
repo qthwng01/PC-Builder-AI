@@ -1,7 +1,7 @@
 'use client'
 
 import { FormControl, FormLabel, Button, Input, Select } from '@chakra-ui/react'
-import { ChangeEvent, useState, useContext } from 'react'
+import { useState, useContext } from 'react'
 import { BuildContext } from '@/context/buildContext'
 import { BuildContextType } from '@/types/build'
 
@@ -12,14 +12,22 @@ function Build() {
   const [loading, setIsLoading] = useState<boolean>(false)
   const { setConfiguration, setLoading } = useContext(BuildContext) as BuildContextType
 
+  const formatBudget = (e: React.FormEvent<HTMLInputElement>) => {
+    const rawValue: string = e.currentTarget.value.replace(/\D/g, '')
+    const parsedValue: number = parseInt(rawValue, 10)
+    setBudget(parsedValue)
+  }
+
   const validate = () => {
     if (isNaN(budget) || budget < 3000000) {
       setError('Chưa điền ngân sách hoặc nhỏ hơn 3.000.000')
     } else if (type === '') {
       setError('Chưa chọn nhu cầu sử dụng')
+    } else if (budget > 100000000) {
+      setError('Ngân sách chỉ được tối đa bằng 100.000.000')
     } else {
       postJSON(budget, type)
-      //console.log(budget, type)
+      console.log(budget, type)
       setError('')
     }
   }
@@ -58,11 +66,17 @@ function Build() {
                 Ngân sách
               </FormLabel>
               <Input
+                min={3000000}
+                max={100000000}
+                type="text"
+                required
                 padding="20px 10px"
                 _focus={{ borderColor: '#4420BE', boxShadow: '0 0 1px #4420BE' }}
                 fontSize={{ base: '16px', md: '18px' }}
                 placeholder="Minium: 3.000.000"
-                onChange={(e: ChangeEvent<HTMLInputElement>) => setBudget(parseInt(e.target.value, 10))}
+                onChange={formatBudget}
+                value={budget === 0 ? '' : budget.toLocaleString('vi-VN')}
+                onInput={formatBudget}
               />
             </FormControl>
             <br />
